@@ -1,0 +1,39 @@
+{
+  "entertainment_news": [
+    {
+      "title": "‘हामी तीन भाइ’लाई युनिभर्सल सर्टिफिकेट",
+      "image_url": "https://assets-cdn-api.ekantipur.com/thumb.php?src=https://assets-cdn.ekantipur.com/uploads/source/news/kantipur/2026/third-party/-2532026091301-1000x0.png&w=701&h=0",
+      "category": "मनोरञ्जन",
+      "author": "कान्तिपुर संवाददाता"
+    },
+    {
+      "title": "निफमा रसियन फिल्महरू पनि स्क्रिनिङ हुँदै",
+      "image_url": "https://assets-cdn-api.ekantipur.com/thumb.php?src=https://assets-cdn.ekantipur.com/uploads/source/third-party/niff-russia-2532026091356-1000x0.jpg&w=701&h=0",
+      "category": "मनोरञ्जन",
+      "author": "कान्तिपुर संवाददाता"
+    },
+    {
+      "title": "कथाघेरा घुम्ती नाटक देखाउन 'बाटैबाटो'",
+      "image_url": "https://assets-cdn-api.ekantipur.com/thumb.php?src=https://assets-cdn.ekantipur.com/uploads/source/news/kantipur/2026/third-party/61e3395f-d04c-4db1-bec7-5ebbe00c4fa6-2532026090623-1000x0.jpg&w=701&h=0",
+      "category": "मनोरञ्जन",
+      "author": "कान्तिपुर संवाददाता"
+    },
+    {
+      "title": "इरानी सिनेमाले नेपाली मेकरलाई सिकाएको ‘मौन भाषा’",
+      "image_url": "https://assets-cdn-api.ekantipur.com/thumb.php?src=https://assets-cdn.ekantipur.com/uploads/source/news/kantipur/2026/third-party/witfh2-2432026021537-1000x0.jpg&w=701&h=0",
+      "category": "मनोरञ्जन",
+      "author": "समर्पण श्री"
+    },
+    {
+      "title": "‘दृश्यम ३’ को प्रदर्शन मिति सारियो",
+      "image_url": "https://assets-cdn-api.ekantipur.com/thumb.php?src=https://assets-cdn.ekantipur.com/uploads/source/news/kantipur/2026/drishyam-2432026085848-1000x0.jpg&w=701&h=0",
+      "category": "मनोरञ्जन",
+      "author": "कान्तिपुर संवाददाता"
+    }
+  ],
+  "cartoon_of_the_day": {
+    "title": "कान्तिपुर दैनिकमा आज प्रकाशित अविनको कार्टुन",
+    "image_url": "https://assets-cdn-api.ekantipur.com/thumb.php?src=https://assets-cdn.ekantipur.com/uploads/source/news/kantipur/2022/third-party/gajab-chha-ba-821126-1032026033855-1000x0.jpg&w=601&h=0",
+    "author": "कान्तिपुर दैनिकमा आज प्रकाशित अविनको कार्टुन"
+  }
+}

@@ -1,0 +1,54 @@
+Prompt 1 – Script Structure (Skeleton)
+
+Create the COMPLETE skeleton for scraper.py using Playwright sync API (Python 3.11+).
+
+Requirements:
+- Imports at top (json, os, pathlib, typing, playwright)
+- Use with sync_playwright() as p:
+- Define constants: ENTERTAINMENT_URL, HOMEPAGE_URL, OUTPUT_PATH
+- NO separate helper functions (_abs_url, _safe_inner_text etc.) — keep everything inline and simple
+- Placeholders (with clear comments) for:
+  • extract_entertainment_news (limit=5)
+  • extract_cartoon_of_the_day
+- In main(): launch browser (headless from env var), call both functions, build exact JSON structure
+- Save to output.json with encoding='utf-8', ensure_ascii=False, indent=2
+- Add meaningful comments explaining approach and code flow
+
+Do NOT add any extraction logic yet — only structure and TODO placeholders.
+
+Prompt 2 – Extraction Logic
+
+Now add clean extraction logic to the skeleton.
+
+Use these selectors from DevTools:
+
+Entertainment page[](https://ekantipur.com/entertainment):
+- Article cards container: div.category-inner-wrapper
+- Inside each card: h2 (title), figure img (image), .author-name p (author)
+
+Cartoon of the Day (homepage):
+- Section: div.section-news
+- Image: a:has(img) img
+- Title and author come from img alt attribute
+
+Requirements for code style:
+- Use simple locator lists: titles = page.locator(...), images = page.locator(...), authors = page.locator(...)
+- Loop with .nth(i) for top 5 articles
+- For images: check both "src" and "data-src", convert relative URLs to absolute using HOMEPAGE_URL
+- Category is always "मनोरञ्जन"
+- Keep code very clean, readable, and minimal 
+- Add short comments explaining each section
+
+Prompt 3 – Error Handling + Final Polish
+
+Add robust error handling and final polish to the code.
+
+Requirements:
+- Wrap every extraction (title, image, author) in try/except with simple fallback values
+- Add page.wait_for_selector for the main containers
+- In main(): support headless mode using os.getenv("SCRAPER_HEADLESS")
+- Always return exactly 5 articles (pad with empty dicts if fewer found)
+- For cartoon: use alt attribute for both title and author
+- Keep the code clean and minimal
+- Add good docstrings explaining the approach
+
